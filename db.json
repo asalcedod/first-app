@@ -1,0 +1,55 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "dni": "3030",
+      "name": "PRUEBA",
+      "age": 30,
+      "isDeleteAllow": false,
+      "user": {
+        "permissions": [
+          "CUSTOMER_LIST",
+          "CUSTOMER_VIEW",
+          "CUSTOMER_EDIT"
+        ]
+      }
+    },
+    {
+      "dni": "123jjj",
+      "name": "ANTONIO",
+      "age": 25,
+      "id": "2",
+      "isDeleteAllow": false,
+      "user": {
+        "permissions": [
+          "CUSTOMER_LIST",
+          "CUSTOMER_VIEW",
+          "CUSTOMER_EDIT"
+        ]
+      }
+    },
+    {
+      "name": "NUEVO CLIENTE 1",
+      "dni": "99",
+      "age": 23,
+      "id": "3"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
